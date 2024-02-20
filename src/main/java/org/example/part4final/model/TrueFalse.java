@@ -17,8 +17,8 @@ public class TrueFalse {
     @Column(name = "true")
     private boolean isTrue;
 
-//    @Column(name = "false")
-//    private boolean isFalse;
+    @Column(name = "false")
+    private boolean isFalse;
 
     public boolean isTrue() {
         return isTrue;
@@ -28,11 +28,11 @@ public class TrueFalse {
         isTrue = aTrue;
     }
 
-//    public boolean isFalse() {
-//        return isFalse;
-//    }
-//
-//    public void setFalse(boolean aFalse) {
-//        isFalse = aFalse;
-//    }
+    public boolean isFalse() {
+        return isFalse;
+    }
+
+    public void setFalse(boolean aFalse) {
+        isFalse = aFalse;
+    }
 }
