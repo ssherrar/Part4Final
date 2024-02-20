@@ -1,0 +1,72 @@
+[
+  {
+    "multiChoiceQuestion": "Which flies a green, white, and orange (in that order) tricolor flag?",
+    "choices": {
+      "a": "A: Ireland",
+      "b": "B: Ivory Coast",
+      "c": "C: Italy",
+      "d": "D: None of the above"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "multiChoiceQuestion": "What number was the Apollo mission that successfully put a man on the moon for the first time in human history?",
+    "choices": {
+      "a": "A: Apollo 11",
+      "b": "B: Apollo 12",
+      "c": "C: Apollo 937",
+      "d": "D: Apollo 13"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "multiChoiceQuestion": "Which of the following languages has the longest alphabet?",
+    "choices": {
+      "a": "A: Arabic",
+      "b": "B: Greek",
+      "c": "C: Russian",
+      "d": "D: German"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "multiChoiceQuestion": "The fear of insects is known as what?",
+    "choices": {
+      "a": "A: Trypophobia",
+      "b": "B: Entomophobia",
+      "c": "C: Ailurophobia",
+      "d": "D: Arachnophobia"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "multiChoiceQuestion": "Which app has the most total users?",
+    "choices": {
+      "a": "A: TikTok",
+      "b": "B: Facebook",
+      "c": "C: Snapchat",
+      "d": "D: Instagram"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "multiChoiceQuestion": "What is the strongest muscle in the human body?",
+    "choices": {
+      "a": "A: Heart",
+      "b": "B: Glutes",
+      "c": "C: Jaw",
+      "d": "D: Tongue"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "multiChoiceQuestion": "Where was the first example of paper money used?",
+    "choices": {
+      "a": "A: Turkey",
+      "b": "B: Greece",
+      "c": "C: Israel",
+      "d": "D: China"
+    },
+    "correctAnswer": "d"
+  }
+]

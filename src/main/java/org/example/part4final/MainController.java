@@ -80,10 +80,12 @@ public class MainController {
         Optional<MultiChoice> optionalMultiChoice = multiChoiceRepo.findById(id);
         if (optionalMultiChoice.isPresent()) {
             MultiChoice existingMultiChoice = optionalMultiChoice.get();
+            existingMultiChoice.setMultiChoiceQuestion(updatedMultiChoice.getMultiChoiceQuestion());
             existingMultiChoice.setA(updatedMultiChoice.getA());
             existingMultiChoice.setB(updatedMultiChoice.getB());
             existingMultiChoice.setC(updatedMultiChoice.getC());
             existingMultiChoice.setD(updatedMultiChoice.getD());
+            existingMultiChoice.setCorrectAnswer(updatedMultiChoice.getCorrectAnswer());
             multiChoiceRepo.save(existingMultiChoice);
             return "Updated Multiple Choice Question!";
         } else {
@@ -96,8 +98,10 @@ public class MainController {
         Optional<TrueFalse> optionalTrueFalse = trueFalseRepo.findById(id);
         if (optionalTrueFalse.isPresent()) {
             TrueFalse existingTrueFalse = optionalTrueFalse.get();
-            existingTrueFalse.setTrue(updatedTrueFalse.isTrue());
-            existingTrueFalse.setFalse(updatedTrueFalse.isFalse());
+            existingTrueFalse.setTrueFalseQuestion(updatedTrueFalse.getTrueFalseQuestion());
+            existingTrueFalse.setIsTrue(updatedTrueFalse.getIsTrue());
+            existingTrueFalse.setIsFalse(updatedTrueFalse.getIsFalse());
+            existingTrueFalse.setCorrectAnswer(updatedTrueFalse.getCorrectAnswer());
             return "Updated True/False Question!";
         } else {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "User not found");
