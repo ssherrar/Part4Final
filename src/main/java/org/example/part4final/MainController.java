@@ -3,10 +3,10 @@ package org.example.part4final;
 import org.example.part4final.interfaces.MultiChoiceRepo;
 import org.example.part4final.interfaces.TrueFalseRepo;
 import org.example.part4final.interfaces.UserRepo;
+import org.example.part4final.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @CrossOrigin(origins = "*")
@@ -20,7 +20,11 @@ public class MainController {
     TrueFalseRepo trueFalseRepo;
 
     //TODO Post Add Each Repo
-
+    @PostMapping(path = "/addUser", consumes = "application/json")
+    public @ResponseBody String addNewUser(@RequestBody User user) {
+        userRepo.save(user);
+        return "Added New User!";
+    }
     //TODO Get all for each
 
     //TODO Put just in case
