@@ -8,7 +8,8 @@ public class MultiChoice {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-
+    @Column(name = "multiChoiceQuestion")
+    private String multiChoiceQuestion;
     @Column(name = "a")
     private String a;
     @Column(name = "b")
@@ -17,6 +18,8 @@ public class MultiChoice {
     private String c;
     @Column(name = "d")
     private String d;
+    @Column(name = "correctAnswer")
+    private String correctAnswer;
 
     public long getId() {
         return id;
@@ -24,6 +27,14 @@ public class MultiChoice {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String getMultiChoiceQuestion() {
+        return multiChoiceQuestion;
+    }
+
+    public void setMultiChoiceQuestion(String multiChoiceQuestion) {
+        this.multiChoiceQuestion = multiChoiceQuestion;
     }
 
     public String getA() {
@@ -56,5 +67,13 @@ public class MultiChoice {
 
     public void setD(String d) {
         this.d = d;
+    }
+
+    public String getCorrectAnswer() {
+        return correctAnswer;
+    }
+
+    public void setCorrectAnswer(String correctAnswer) {
+        this.correctAnswer = correctAnswer;
     }
 }

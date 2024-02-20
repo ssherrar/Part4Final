@@ -1,0 +1,74 @@
+[
+  {
+    "trueFalseQuestion": "The blue whale is the biggest animal to have ever lived.",
+    "choices": {
+      "true": "True",
+      "false": "False"
+    },
+    "correctAnswer": "true"
+  },
+  {
+    "trueFalseQuestion": "The goat is the national animal of Scotland.",
+    "choices": {
+      "true": "True",
+      "false": "False"
+    },
+    "correctAnswer": "false"
+  },
+  {
+    "trueFalseQuestion": "New York City is composed of between 36 and 42 islands.",
+    "choices": {
+      "true": "True",
+      "false": "False"
+    },
+    "correctAnswer": "true"
+  },
+  {
+    "trueFalseQuestion": "Alaska has the most active volcanoes of any state in the United States.",
+    "choices": {
+      "true": "True",
+      "false": "False"
+    },
+    "correctAnswer": "true"
+  },
+  {
+    "trueFalseQuestion": "Humans lose more than 80% of heat from their feet.",
+    "choices": {
+      "true": "True",
+      "false": "False"
+    },
+    "correctAnswer": "false"
+  },
+  {
+    "trueFalseQuestion": "Pineapples grow on trees.",
+    "choices": {
+      "true": "True",
+      "false": "False"
+    },
+    "correctAnswer": "false"
+  },
+  {
+    "trueFalseQuestion": "The names of the mascots for Rice Krispies are Snap, Crackle, & Pop.",
+    "choices": {
+      "true": "True",
+      "false": "False"
+    },
+    "correctAnswer": "true"
+  },
+  {
+    "trueFalseQuestion": "The letter T is the most common in the English Language.",
+    "choices": {
+      "true": "True",
+      "false": "False"
+    },
+    "correctAnswer": "false"
+  },
+  {
+    "trueFalseQuestion": "The name of Batman's butler is Albert.",
+    "choices": {
+      "true": "True",
+      "false": "False"
+    },
+    "correctAnswer": "false"
+  }
+]

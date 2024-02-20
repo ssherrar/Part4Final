@@ -14,25 +14,44 @@ public class TrueFalse {
     private long id;
 
     //Not sure if isFalse is needed but will put it in and comment it out just so we have it
+    @Column(name = "trueFalseQuestion")
+    private String trueFalseQuestion;
     @Column(name = "true")
-    private boolean isTrue;
+    private String isTrue;
+    @Column(name = "false")
+    private String isFalse;
+    @Column(name = "correctAnswer")
+    private String correctAnswer;
 
-//    @Column(name = "false")
-//    private boolean isFalse;
+    public String getTrueFalseQuestion() {
+        return trueFalseQuestion;
+    }
 
-    public boolean isTrue() {
+    public void setTrueFalseQuestion(String trueFalseQuestion) {
+        this.trueFalseQuestion = trueFalseQuestion;
+    }
+
+    public String getIsTrue() {
         return isTrue;
     }
 
-    public void setTrue(boolean aTrue) {
-        isTrue = aTrue;
+    public void setIsTrue(String isTrue) {
+        this.isTrue = isTrue;
     }
 
-//    public boolean isFalse() {
-//        return isFalse;
-//    }
-//
-//    public void setFalse(boolean aFalse) {
-//        isFalse = aFalse;
-//    }
+    public String getIsFalse() {
+        return isFalse;
+    }
+
+    public void setIsFalse(String isFalse) {
+        this.isFalse = isFalse;
+    }
+
+    public String getCorrectAnswer() {
+        return correctAnswer;
+    }
+
+    public void setCorrectAnswer(String correctAnswer) {
+        this.correctAnswer = correctAnswer;
+    }
 }
