@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Quiz - Multiple Choice</title>
+    <link rel="stylesheet" href="../css/multipleChoiceStyles.css">
+    <script src="../js/multipleChoiceScript.js" defer></script>
+</head>
+<body>
+    <h1>Multiple Choice Questions</h1>
+    <div id="questionContainer">
+        <p id="question"></p>
+        <div id="answersContainer">
+            <label>
+                <input type="radio" name="answer" value="1">
+                <span id="answer1"></span>
+            </label>
+            <label>
+                <input type="radio" name="answer" value="2">
+                <span id="answer2"></span>
+            </label>
+            <label>
+                <input type="radio" name="answer" value="3">
+                <span id="answer3"></span>
+            </label>
+            <label>
+                <input type="radio" name="answer" value="4">
+                <span id="answer4"></span>
+            </label>
+        </div>
+        <button onclick="submitAnswer()">Submit Answer</button>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
